@@ -1,0 +1,54 @@
+@import "./colores";
+
+
+/*header*/
+
+.marcaImg {
+    height: 60px;
+    width: 75px;
+    margin-top: 2px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+.barra {
+    background-color: $lightPink;
+    text-align: center; 
+    padding: 1px;  
+    display: grid;
+    grid-template-columns: repeat (5, 1fr);
+}
+
+.textoNav {
+    margin: auto;
+    overflow: hidden;
+    grid-column: 2/6;
+    display: flex;
+    
+}
+   
+.textoNav> li {
+    display: flex;
+   justify-content: center;
+   margin: 4px 40px;
+   font-size:  18px; 
+}
+
+.textoNav> li > a {
+    display: flex;
+   padding: 8px;
+   color: $bl;
+   text-decoration: none;
+   font-family: 'Gugi';
+}
+
+.textoNav> li > a:hover {
+    color: $turquesa
+}
+
+
+
+
+
+

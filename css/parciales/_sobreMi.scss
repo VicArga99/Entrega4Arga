@@ -1,0 +1,99 @@
+@import "./colores";
+
+
+/* perfil */
+
+.presetación2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+section{
+flex-basis: 40%;
+}
+aside{
+    flex-basis: 20%;  
+    position: relative;
+    img{
+        height: 350px;
+        width: 500px;
+        background-color: $violeta;
+        border-radius: 6px;
+        padding: 18px;
+        margin: 30px; 
+        animation-name: move;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 4s;
+        animation-delay: 0s;  
+    }  
+}
+}
+
+.header2{ 
+    margin-block-start: 0;
+    margin-block-end: 0; 
+    color: $mainColor;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 32px;
+    margin-bottom: 4%;
+}
+
+.infoYo2{
+    margin-left: 10px;
+    line-height: 1.5;
+    background-color: $mainColor;
+    border-radius: 6px;      
+ h2{ 
+    margin-block-start: 0;
+    margin-block-end: 0; 
+    background-color: $violeta;
+    color: $bl;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    border-radius: 2px;
+   
+}
+}
+
+.cuerpoYo2{    
+    margin-block-start: 5px;  
+    font-size: 15px; 
+    padding-bottom: 18px;
+    padding-left: 12px;
+    color: $bl; 
+    line-height: 1.5;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infoYo4{
+    margin-left: 10px;
+    margin-right: 50px;
+    line-height: 1.5;
+    margin-top: 30px;
+    background-color: $turquesa;
+    border-radius: 6px;      
+ h3{ 
+    margin-block-start: 0;
+    margin-block-end: 0; 
+    background-color: $mainColor;
+    color: $bl;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    border-radius: 2px;
+   
+}
+}
+
+.cuerpoYo4{    
+    margin-block-start: 5px; 
+    margin-bottom: 40px; 
+    font-size: 15px; 
+    padding-bottom: 12px;
+    padding-left: 12px;
+    color: $bl; 
+    line-height: 1.5;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,63 @@
+@media (max-width: 768px ) {
+    header {
+    display: grid; 
+    place-items: center; 
+    }  
+
+    footer {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: center; 
+        flex-wrap: wrap;  
+      }
+
+      .diseño {
+         grid-template-columns: 1fr; }
+
+         .card {
+            display: flex;
+            flex-direction:row;
+    
+            }
+
+            .porfolioFoto{
+                display: grid;
+                grid-template-columns: 1fr; 
+                
+            }
+
+}
+
+
+@media screen and (max-width: 320px ) {
+    header {
+    display: grid; 
+    place-items: center; 
+    }  
+
+    footer {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: center; 
+        flex-wrap: wrap;  
+      }
+
+      .diseño {
+         grid-template-columns: 1fr; }
+
+         .card {
+            display: flex;
+            flex-direction:row;
+    
+            }
+
+            .porfolioFoto{
+                display: grid;
+                grid-template-columns: 1fr; 
+                
+            }
+
+}
+
