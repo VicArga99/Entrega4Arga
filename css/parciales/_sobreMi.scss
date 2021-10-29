@@ -20,11 +20,6 @@ aside{
         border-radius: 6px;
         padding: 18px;
         margin: 30px; 
-        animation-name: move;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-duration: 4s;
-        animation-delay: 0s;  
     }  
 }
 }
@@ -69,7 +64,6 @@ aside{
 
 .infoYo4{
     margin-left: 10px;
-    margin-right: 50px;
     line-height: 1.5;
     margin-top: 30px;
     background-color: $turquesa;
@@ -96,4 +90,9 @@ aside{
     color: $bl; 
     line-height: 1.5;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-inner{ 
+    border-radius: 10px;
+   
 }
