@@ -201,10 +201,6 @@ body {
   font-size: 45px;
 }
 
-.video1 {
-  width: 700px;
-}
-
 .videoImg {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,7 +215,7 @@ body {
   color: plum;
   font-size: 50px;
   line-height: 1.2;
-  margin-left: -140px;
+  margin-left: 50px;
 }
 
 /* infromación */
