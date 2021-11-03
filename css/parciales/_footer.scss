@@ -16,7 +16,9 @@ footer p{
 
 .seguir{
     flex-basis: 40%; 
-    padding-left: 40px;  
+    padding-left: 40px; 
+    margin-right: 60px; 
+   margin-left: 60px; 
    
 }
 .seguir h2,p{
@@ -43,8 +45,11 @@ footer p{
    display: grid;
    grid-template-rows: 30px 30px 30px;
    grid-template-columns: auto auto;
-   align-content: center;   
+   align-content: center;  
+   margin-right: 60px; 
+   margin-left: 60px;
    grid-gap:20px
+   
 } 
 
 .contacto h2{
@@ -52,6 +57,7 @@ footer p{
     font-family: 'Press Start 2P';
     font-size: 22px;
     margin: 4px;
+    margin-left: 60px;
  } 
 .contacto .nombre {
     grid-row: 1/2;

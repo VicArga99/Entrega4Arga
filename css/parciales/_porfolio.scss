@@ -4,7 +4,7 @@
 /* porfolio */
 
 .tituloP {    
-    color: deeppink;
+    color: $mainColor;
     text-align: center;
     font-family: 'Press Start 2P';
     font-size: 50px;   
@@ -31,7 +31,7 @@ img{
     position: absolute;
     width: 32.6%;
     height: 39%;
-    background-color: darkturquoise;
+    background-color: $turquesa;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ img{
     border-radius: 2px;
     opacity: 0;
  h5{
-    color: deeppink;
+    color: $mainColor;
     font-family: 'Press Start 2P';
     font-size: 20px;
     margin-top: 16%;
@@ -48,7 +48,7 @@ img{
  p{ 
     margin-top: 4%;
     font-size: 14px; 
-    color: black; 
+    color: $bl; 
     line-height: 1.5;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

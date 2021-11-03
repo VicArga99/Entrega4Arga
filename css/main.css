@@ -319,6 +319,8 @@ body {
   text-align: center;
   color: #c8f9ff;
   font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .cuerpoYo2 {
@@ -619,6 +621,15 @@ body {
 }
 
 /* tienda */
+.barra li i {
+  margin-top: 4px;
+  color: deeppink;
+}
+
+.barra li i:hover {
+  color: darkturquoise;
+}
+
 .carrito {
   position: absolute;
   right: 32px;
@@ -735,7 +746,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 8px;
-  opacity: 0;
+  opacity: 0%;
 }
 
 .cajainfo2 h5 {
@@ -756,9 +767,8 @@ body {
   padding: 4px;
 }
 
-.cajainfo2 p:hover {
+.cajainfo2:hover {
   opacity: 100%;
-  display: block;
 }
 
 /* adios */
@@ -819,6 +829,8 @@ footer p {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   padding-left: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .seguir h2, p {
@@ -853,6 +865,8 @@ footer p {
       grid-template-columns: auto auto;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-right: 60px;
+  margin-left: 60px;
   grid-gap: 20px;
 }
 
@@ -861,6 +875,7 @@ footer p {
   font-family: 'Press Start 2P';
   font-size: 22px;
   margin: 4px;
+  margin-left: 60px;
 }
 
 .contacto .nombre {
@@ -1206,6 +1221,139 @@ input, textarea {
     line-height: 1.5;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+  .presetación2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .presetación2 section {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  .presetación2 aside {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .presetación2 aside img {
+    margin-left: 200px;
+    height: 300px;
+    width: 400px;
+  }
+  .porfolioFoto {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    grid-gap: 10px;
+  }
+  .porfolioFoto img {
+    width: 100%;
+  }
+  .cajainfo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    grid-gap: 10px;
+    opacity: 0;
+  }
+  .cajainfo h5 {
+    color: deeppink;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    margin-top: 16%;
+  }
+  .cajainfo p {
+    margin-top: 4%;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .cajainfo:hover {
+    opacity: 100%;
+  }
+  .fondoT {
+    background-color: plum;
+    padding: 60px 20;
+    margin-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
+  .fondoT article {
+    font-size: 16px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    grid-gap: 12px;
+  }
+  .adios {
+    padding: 30px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #ffcce7;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .adios img {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+    padding-left: 20px;
+  }
+  .adios h3 {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+    padding-left: 20px;
+    text-align: center;
+    color: darkturquoise;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1229,6 +1377,12 @@ input, textarea {
   body {
     display: -ms-grid;
     display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .presetación2 .img {
+    margin-left: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

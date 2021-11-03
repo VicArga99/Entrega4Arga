@@ -3,6 +3,14 @@
 
 /* tienda */
 
+.barra li i{
+    margin-top: 4px;
+    color: $mainColor;
+    &:hover{
+        color: $turquesa;
+    }
+} 
+
 .carrito{
     position: absolute;
     right: 32px;
@@ -91,7 +99,7 @@ article{
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    opacity: 0;
+    opacity: 0%;
  h5{
     color: $mainColor;
     font-family: 'Press Start 2P';
@@ -99,7 +107,6 @@ article{
     margin-top: 14%;
     text-align: center;
     line-height: 1.4;
-   
 }
  p{ 
     font-size: 10px; 
@@ -108,12 +115,12 @@ article{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center;
    padding: 4px;
+}
    &:hover{
     opacity: 100%;
-    display: block;
 }
 }
-}
+
 
 
 
